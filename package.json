@@ -1,0 +1,27 @@
+{
+  "name": "search-public-api-backend",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "lab -a code -v -C"
+  },
+  "author": "eduavet",
+  "license": "ISC",
+  "dependencies": {
+    "boom": "^7.3.0",
+    "code": "^5.2.4",
+    "dotenv": "^7.0.0",
+    "hapi": "^18.1.0",
+    "joi": "^14.3.1",
+    "lab": "^18.0.2",
+    "node-fetch": "^2.3.0",
+    "pg-promise": "^8.6.2",
+    "promise": "^8.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  }
+}
